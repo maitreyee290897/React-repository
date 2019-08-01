@@ -1,20 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
 
+//import Main from './components/Main';
 
+//function App() {
+//  return (
+		//  <div>
+    //      <Header />
+  //        <Sidebar />
+//          <Main />
+//          <Footer />
+//    </div>
+//  );
+//}
 
 function App() {
-  return (
-		  <div>
-          <Header />
-          <Footer />
-          <Sidebar />
-    </div>
-  );
+    return (
+        <div>
+            <Header />
+            <Sidebar />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

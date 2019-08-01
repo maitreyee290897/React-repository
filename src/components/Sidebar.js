@@ -3,7 +3,7 @@ import React from 'react'
 function Sidebar() {
     return (
 
-        <div>
+        <div className="sidebar">
             <span> this is Sidebar component </span>
         </div>
     );

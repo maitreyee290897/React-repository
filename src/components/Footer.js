@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
 
-        <div>
+        <div className="footer">
             <span> this is footer component </span>
         </div>
     );
